@@ -22,7 +22,7 @@ function freieForm() {
   // Styling der freien Form
   stroke(255, 0, 0);
   strokeWeight(1);
-  myShader.setUniform("uFarbe", [1.0, 0.0, 0.0, 0.5]);
+  myShader.setUniform("uFarbe", [0.0, 1.0, 1.0, 0.5]);
 
   // --- FREIE ORGANISCHE FORM (p5.js v2 Spline-Syntax) ---
   beginShape();
